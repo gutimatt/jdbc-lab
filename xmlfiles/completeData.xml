@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<JdbcLab>
+    <customers>
+        <customer custid="94061">
+            <pid>61</pid>
+            <name>Luke Moonwalker</name>
+            <quantity>1</quantity>
+        </customer>
+        <customer custid="95133">
+            <pid>70</pid>
+            <name>Darth Marth</name>
+            <quantity>7</quantity>
+        </customer>
+        <customer custid="96711">
+            <pid>60</pid>
+            <name>Joe Sith</name>
+            <quantity>3</quantity>
+        </customer>
+        <customer custid="97544">
+            <pid>71</pid>
+            <name>Yoda Yoga</name>
+            <quantity>1</quantity>
+        </customer>
+    </customers>
+    <depts>
+        <dept deptno="10">
+            <dname>SPORTS</dname>
+            <loc>NEW YORK</loc>
+        </dept>
+        <dept deptno="20">
+            <dname>HOME</dname>
+            <loc>DALLAS</loc>
+        </dept>
+        <dept deptno="30">
+            <dname>OUTDOOR</dname>
+            <loc>CHICAGO</loc>
+        </dept>
+        <dept deptno="40">
+            <dname>CLOTHING</dname>
+            <loc>BOSTON</loc>
+        </dept>
+    </depts>
+    <emps>
+        <emp empno="7369">
+            <ename>SMITH</ename>
+            <job>CLERK</job>
+            <mgr>7902</mgr>
+            <sal>800.0</sal>
+            <comm/>
+            <deptno>20</deptno>
+        </emp>
+        <emp empno="7499">
+            <ename>ALLEN</ename>
+            <job>SALESMAN</job>
+            <mgr>7698</mgr>
+            <sal>1600.0</sal>
+            <comm>300.0</comm>
+            <deptno>30</deptno>
+        </emp>
+        <emp empno="7521">
+            <ename>WARD</ename>
+            <job>SALESMAN</job>
+            <mgr>7698</mgr>
+            <sal>1250.0</sal>
+            <comm>500.0</comm>
+            <deptno>30</deptno>
+        </emp>
+        <emp empno="7566">
+            <ename>JONES</ename>
+            <job>MANAGER</job>
+            <mgr>7839</mgr>
+            <sal>2975.0</sal>
+            <comm/>
+            <deptno>20</deptno>
+        </emp>
+        <emp empno="7654">
+            <ename>MARTIN</ename>
+            <job>SALESMAN</job>
+            <mgr>7698</mgr>
+            <sal>1250.0</sal>
+            <comm>1400.0</comm>
+            <deptno>30</deptno>
+        </emp>
+        <emp empno="7698">
+            <ename>BLAKE</ename>
+            <job>MANAGER</job>
+            <mgr>7839</mgr>
+            <sal>2850.0</sal>
+            <comm/>
+            <deptno>30</deptno>
+        </emp>
+        <emp empno="7782">
+            <ename>CLARK</ename>
+            <job>MANAGER</job>
+            <mgr>7839</mgr>
+            <sal>2450.0</sal>
+            <comm/>
+            <deptno>10</deptno>
+        </emp>
+        <emp empno="7788">
+            <ename>SCOTT</ename>
+            <job>ANALYST</job>
+            <mgr>7566</mgr>
+            <sal>3000.0</sal>
+            <comm/>
+            <deptno>20</deptno>
+        </emp>
+        <emp empno="7839">
+            <ename>KING</ename>
+            <job>PRESIDENT</job>
+            <mgr/>
+            <sal>5000.0</sal>
+            <comm/>
+            <deptno>10</deptno>
+        </emp>
+        <emp empno="7844">
+            <ename>TURNER</ename>
+            <job>SALESMAN</job>
+            <mgr>7698</mgr>
+            <sal>1500.0</sal>
+            <comm>0.0</comm>
+            <deptno>30</deptno>
+        </emp>
+        <emp empno="7876">
+            <ename>ADAMS</ename>
+            <job>CLERK</job>
+            <mgr>7788</mgr>
+            <sal>1100.0</sal>
+            <comm/>
+            <deptno>20</deptno>
+        </emp>
+        <emp empno="7900">
+            <ename>JAMES</ename>
+            <job>CLERK</job>
+            <mgr>7698</mgr>
+            <sal>950.0</sal>
+            <comm/>
+            <deptno>30</deptno>
+        </emp>
+        <emp empno="7902">
+            <ename>FORD</ename>
+            <job>ANALYST</job>
+            <mgr>7566</mgr>
+            <sal>3000.0</sal>
+            <comm/>
+            <deptno>20</deptno>
+        </emp>
+        <emp empno="7934">
+            <ename>MILLER</ename>
+            <job>CLERK</job>
+            <mgr>7782</mgr>
+            <sal>1300.0</sal>
+            <comm/>
+            <deptno>10</deptno>
+        </emp>
+    </emps>
+    <products>
+        <product made_by="10" prodid="30">
+            <price>199.37</price>
+            <descrip>CALLAWAY IRONS</descrip>
+        </product>
+        <product made_by="10" prodid="60">
+            <price>39.99</price>
+            <descrip>ACE TENNIS RACKET I</descrip>
+        </product>
+        <product made_by="10" prodid="61">
+            <price>49.99</price>
+            <descrip>ACE TENNIS RACKET II</descrip>
+        </product>
+        <product made_by="20" prodid="63">
+            <price>8.99</price>
+            <descrip>WELCOME MAT</descrip>
+        </product>
+        <product made_by="30" prodid="70">
+            <price>9.99</price>
+            <descrip>TENT STAKES</descrip>
+        </product>
+        <product made_by="20" prodid="71">
+            <price>24.49</price>
+            <descrip>BATH TOWELS</descrip>
+        </product>
+        <product made_by="30" prodid="76">
+            <price>14.99</price>
+            <descrip>SB ENERGY BAR-6 PACK</descrip>
+        </product>
+        <product made_by="30" prodid="80">
+            <price>70.19</price>
+            <descrip>HIKING BOOTS</descrip>
+        </product>
+        <product made_by="30" prodid="81">
+            <price>12.99</price>
+            <descrip>SB VITA SNACK-6 PACK</descrip>
+        </product>
+        <product made_by="40" prodid="90">
+            <price>19.99</price>
+            <descrip>TENNIS SHIRT</descrip>
+        </product>
+    </products>
+</JdbcLab>
